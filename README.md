@@ -1,6 +1,8 @@
 # canvas-lms-vietnamese-language-translation
 Dự án dịch file ngôn ngữ tiếng Việt cho hệ thống học trực tuyến Canvas-LMS (translating...).
 Bản dịch trên transifex: https://www.transifex.com/vietnam-maritime-university/canvas-lms-2/
+Hỗ trợ cài đặt Canvas LMS Opensource đầy đủ tính năng phiên bản cập nhật.
+Liên hệ: Phạm Việt Dũng 0989136591.
 ![image](https://user-images.githubusercontent.com/15527533/125020994-00f13c00-e0a4-11eb-91a5-d59318c590e7.png)
 ![image](https://user-images.githubusercontent.com/15527533/125021007-077fb380-e0a4-11eb-9b96-9b0e5865c089.png)
 ![image](https://user-images.githubusercontent.com/15527533/125021018-0babd100-e0a4-11eb-96f9-9ae5a47ef7c1.png)
