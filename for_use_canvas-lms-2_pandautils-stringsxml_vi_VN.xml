@@ -1,0 +1,433 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2017 - present Instructure, Inc.
+  ~
+  ~     Licensed under the Apache License, Version 2.0 (the "License");
+  ~     you may not use this file except in compliance with the License.
+  ~     You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~     Unless required by applicable law or agreed to in writing, software
+  ~     distributed under the License is distributed on an "AS IS" BASIS,
+  ~     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~     See the License for the specific language governing permissions and
+  ~     limitations under the License.
+  ~
+  -->
+
+<resources>
+
+    <string name="chooseMedia">Chọn phương tiện</string>
+    <string name="takeVideo">Quay video</string>
+    <string name="noCameraOnDevice">Không có máy ảnh</string>
+    <string name="takePhoto">Chụp hình</string>
+    <string name="choosePhotoFromGallery">Chọn ảnh từ thư viện</string>
+
+    <string name="utils_edit">Biên tập</string>
+
+    <!-- NotoriousPicker/uploadService -->
+    <string name="notificationTitle">Tải lên Canvas</string>
+    <string name="preparingUpload">Đang chuẩn bị tải lên</string>
+    <string name="loadingFilesIndeterminate">Đang tải tệp…</string>
+    <string name="fileUploadSuccess">Tải lên thành công</string>
+    <string name="noNetwork">Mạng không khả dụng - vui lòng thử lại sau.</string>
+    <string name="uploadMessage">&quot;Đang tải lên. Kiểm tra thông báo để biết trạng thái tải lên.</string>
+    <string name="uploadingFile">Đang tải tệp lên…</string>
+    <string name="errorUploadingFile">Đã xảy ra lỗi khi tải tệp của bạn lên. Vui lòng thử lại.</string>
+    <string name="fileSubmission">Gửi (các) tệp</string>
+    <string name="uploadFiles">Tải lên (các) tệp</string>
+    <string name="upload">Tải lên</string>
+    <string name="errorSendingMessage">Đã xảy ra lỗi khi gửi tin nhắn của bạn. Vui lòng thử lại.</string>
+
+    <string name="notificationChannelNameFileUploadsName">Tải lên thông báo</string>
+    <string name="notificationChannelNameFileUploadsDescription">Thông báo canvas cho quá trình tải lên đang diễn ra.</string>
+    <!-- Turn in Files -->
+    <string name="addFile">Thêm tập tin</string>
+    <string name="fromCamera">Máy ảnh</string>
+    <string name="fromGallery">Bộ sưu tập</string>
+    <string name="fromDevice">Thiết bị</string>
+    <string name="fromOtherApplication">Khác</string>
+    <string name="Domain">Miền</string>
+    <string name="files">Các tập tin</string>
+    <string name="file">Tập tin</string>
+    <string name="fileTalkBack">Tệp %s</string>
+    <string name="folderTalkBack">Thư mục %s</string>
+
+    <string name="addItem">Thêm mặt hàng</string>
+    <string name="assignment">Chuyển nhượng</string>
+    <string name="attachedFiles">File đính kèm</string>
+    <string name="turnIn">Quay vào</string>
+    <string name="course">Khóa học</string>
+    <string name="sending">Gửi…</string>
+
+    <!--rating dialog-->
+    <string name="star1">Xếp hạng sao Một</string>
+    <string name="star2">Xếp hạng sao Hai</string>
+    <string name="star3">Xếp hạng sao Ba</string>
+    <string name="star4">Xếp hạng sao Bốn</string>
+    <string name="star5">Xếp hạng sao Năm</string>
+
+    <!-- Submitting files -->
+    <string name="fileQuotaExceeded">Bạn hiện đã vượt quá hạn ngạch lưu trữ tệp của mình.</string>
+    <string name="errorSubmittingFiles">Đã xảy ra lỗi khi chuyển tệp của bạn. Vui lòng thử lại.</string>
+    <string name="errorLoadingFiles">Đã xảy ra lỗi khi tải tệp của bạn. Vui lòng kiểm tra kết nối internet của bạn và thử lại.</string>
+    <string name="filesUploadedSuccessfully">Các tệp đã được tải lên thành công.</string>
+    <string name="filesSubmittedSuccessfully">Các tệp đã được gửi thành công.</string>
+    <string name="messageSentSuccessfully">Đã gửi tin nhắn thành công.</string>
+    <string name="shareWithCanvas">Các ứng dụng khác có thể chia sẻ tệp với Canvas! Tìm biểu tượng bên dưới trong ứng dụng và nhấn vào Canvas.</string>
+    <string name="shareWithCanvas2">Điều đó sẽ mở ứng dụng này. Sau đó, chỉ cần chọn khóa học và bài tập mà bạn muốn nộp hồ sơ.</string>
+    <string name="contentDescriptionSocialShare">Biểu tượng chia sẻ</string>
+    <string name="submitAssignment">Nộp bài luận</string>
+    <string name="assignmentHeader">Nhiệm vụ:</string>
+    <string name="submittingAssignment">Đang gửi bài tập…</string>
+    <string name="conversations">Cuộc trò chuyện</string>
+    <string name="inbox">Hộp thư đến</string>
+    <string name="divider">Dải phân cách</string>
+    <string name="legal">Hợp pháp</string>
+    <string name="completeHomework">HOÀN THÀNH Bài tập về nhà của bạn</string>
+    <string name="takeExam">Làm bài kiểm tra</string>
+    <string name="fileIcon">Biểu tượng tệp</string>
+    <string name="uploadingFileNum" formatted="false">Tải lên %d của %d</string>
+    <string name="fileLocked" formatted="false">%s đã bị khóa.</string>
+    <string name="filePermissionGranted">Tệp hiện đã sẵn sàng để tải xuống; vui lòng thử lại.</string>
+    <string name="filePermissionDenied">Không thể tải xuống tệp nếu không được cấp quyền.</string>
+    <string name="pleaseTryAgain">Quyền đã được cấp, vui lòng thử lại.</string>
+    <string name="pickFile">Chọn một tập tin</string>
+    <string name="assignmentSubmissionUpload">Đang tải lên trình cho %s</string>
+    <string name="assignmentSubmissionError">Không gửi được cho %s</string>
+    <string name="assignmentSubmissionComplete">Đã gửi thành công %s</string>
+    <!--Errors-->
+    <string name="errorOccurred">Đã xảy ra lỗi không mong muốn.</string>
+    <string name="serverError">Một lỗi máy chủ đã xảy ra.</string>
+    <string name="unauthorized">Bạn không được phép truy cập vào cái này. Hoặc bạn không có quyền hoặc bạn chưa có quyền truy cập (như khóa học của bạn chưa bắt đầu)</string>
+    <string name="fileNoLongerExists">Tập tin đó không còn tồn tại.</string>
+    <string name="invalidAccessToken">Phiên của bạn đã hết hạn. Vui lòng đăng nhập để bắt đầu một phiên mới.</string>
+    <string name="uploadingFromSourceFailed">Không thể hoàn tất việc tải lên tệp từ nguồn này.</string>
+    <string name="errorGettingPhoto">Đã xảy ra lỗi khi tải ảnh. Vui lòng thử lại.</string>
+    <string name="errorTextMissing">Thêm một số văn bản để gửi tin nhắn</string>
+
+    <string name="fileUploadNotSupported">Bạn không thể tải tệp lên bài tập đã chọn.</string>
+    <string name="noCourseSelected">Vui lòng chọn một khóa học.</string>
+    <string name="selectCourse">Chọn một khóa học</string>
+    <string name="selectAssignment">Chọn một bài tập</string>
+    <string name="loadingAssignments">Đang tải bài tập…</string>
+    <string name="noAssignmentSelected">Vui lòng chọn một nhiệm vụ.</string>
+    <string name="noAssignmentsWithFileUpload">Khóa học này không có bài tập nào cho phép tải tệp lên.</string>
+    <string name="teacherNotAllowedFileSubmission">Với tư cách là giáo viên trong khóa học này, bạn không thể gửi tệp</string>
+    <string name="noFilesUploaded">Bạn chưa chọn bất kỳ tệp nào.</string>
+    <string name="oneOrMoreExtensionNotAllowed">Một hoặc nhiều tệp có phần mở rộng tệp không được phép</string>
+    <string name="extensionNotAllowed">Loại tệp đã chọn không được phép.</string>
+    <string name="allowedExtensions">Các phần mở rộng được phép:</string>
+
+    <!-- Media Task Loader -->
+    <string name="noDataConnection">Vui lòng kiểm tra kết nối dữ liệu của bạn và thử lại.</string>
+    <string name="noApps">Thiết bị của bạn không được cài đặt bất kỳ ứng dụng nào có thể xử lý tệp này.</string>
+    <string name="noAppsShort">Không thể mở</string>
+    <string name="unexpectedErrorOpeningFile">Đã xảy ra lỗi không mong muốn khi cố gắng mở tệp.</string>
+    <string name="unexpectedErrorDownloadingFile">Đã xảy ra lỗi không mong muốn khi cố gắng tải xuống tệp.</string>
+
+    <string name="done">Làm xong</string>
+
+    <!--Permissions-->
+    <string name="permissionDenied">Để sử dụng tính năng này, trước tiên bạn phải được cấp quyền.</string>
+    <string name="noConnection">Không có kết nối</string>
+
+    <!--Empty Screens-->
+    <string name="emptyCourseListMessage">Các khóa học và nhóm yêu thích của bạn hiển thị ở đây.</string>
+    <string name="addCoursesGroups">Thêm khóa học / nhóm</string>
+    <string name="noDiscussions">Không có cuộc thảo luận</string>
+    <string name="noDiscussionsSubtext">Bắt đầu một cuộc trò chuyện với những người khác.</string>
+    <string name="noDiscussionsTeacher">Bắt đầu cuộc trò chuyện với học sinh của bạn.</string>
+    <string name="nothingUnread">Hộp thư đến số 0!</string>
+    <string name="nothingUnreadSubtext">Bạn đã bắt kịp tất cả!</string>
+    <string name="nothingStarred">Không có tin nhắn được gắn dấu sao</string>
+    <string name="nothingStarredSubtext">Giữ các tin nhắn quan trọng trong phần này bằng cách nhấn vào dấu sao trong mỗi tin nhắn.</string>
+    <string name="nothingSent">Không có gì được gửi</string>
+    <string name="nothingSentSubtext">Bạn chưa gửi bất kỳ tin nhắn nào.</string>
+    <string name="nothingArchived">Không có gì được lưu trữ</string>
+    <string name="nothingArchivedSubtext">Bạn chưa lưu trữ bất kỳ tin nhắn nào.</string>
+    <string name="noQuizzes">Không có câu đố</string>
+    <string name="noQuizzesSubtext">Xin lỗi, không có câu đố nào tồn tại.</string>
+    <string name="noQuizzesTeacher">Không có câu đố đã xuất bản nào để hiển thị.</string>
+    <string name="noAnnouncements">Không có thông báo</string>
+    <string name="noAnnouncementsSubtext">Chưa có gì được công bố.</string>
+    <string name="noCourses">Không có khóa học</string>
+    <string name="noCoursesSubtext">Có vẻ như không có bất kỳ khóa học nào được liên kết với tài khoản này. Truy cập web để tạo khóa học ngay hôm nay.</string>
+    <string name="noAssignments">Không có bài tập</string>
+    <string name="noAssignmentsSubtext">Có vẻ như bài tập chưa được tạo trong không gian này. Thời gian để đi ra ngoài và khám phá.</string>
+    <string name="noAssignmentsTeacher">Có vẻ như chưa có bài tập nào được xuất bản.</string>
+    <string name="noFiles">Không có tệp</string>
+    <string name="noFilesForAssignment">Không có tệp nào cho bài nộp này</string>
+    <string name="noFilesSubtext">Không có tệp nào được liên kết với tài khoản này.</string>
+    <string name="emptyFolder">Thư mục này trống</string>
+    <string name="notSupported">Không được hỗ trợ</string>
+    <string name="noEvents">Không có sự kiện hôm nay!</string>
+    <string name="noEventsSubtext">Có vẻ như đây là một ngày tuyệt vời để nghỉ ngơi và thư giãn.</string>
+    <string name="noSubmission">Không nộp</string>
+    <string name="noSubmissionTeacher">Sinh viên này chưa có bài nộp.</string>
+    <string name="locked">Đã khóa</string>
+    <string name="lockedSubtext">Bài tập này bị khóa cho đến %1$s tại %2$s.</string>
+    <string name="chooseFile">Chọn một tệp</string>
+    <string name="chooseFileSubtext">Đính kèm tệp vào bài nộp của bạn bằng cách nhấn vào một tùy chọn bên dưới.</string>
+    <string name="chooseFileForUploadSubtext">Chọn một tệp để tải lên bằng cách nhấn vào một tùy chọn bên dưới</string>
+    <string name="noNotifications">Không có thông báo</string>
+    <string name="noNotificationsSubtext">Chưa có gì để được thông báo.</string>
+    <string name="noTodos">Làm tốt!</string>
+    <string name="noTodosSubtext">Danh sách việc cần làm của bạn trống. Đã đến lúc phải sạc lại.</string>
+    <string name="noSyllabus">Không có giáo trình</string>
+    <string name="noSyllabusSubtext">Giáo trình vẫn chưa được tạo.</string>
+    <string name="noBookmarks">Không có dấu trang</string>
+    <string name="noBookmarksSubtext">Dấu trang là lối tắt cho bất kỳ màn hình nào trong ứng dụng. Thêm chúng trên màn hình mà bạn muốn đánh dấu.</string>
+    <string name="noModules">Không có mô-đun</string>
+    <string name="noModulesSubtext">Có vẻ như chưa có bất kỳ mô-đun nào được tạo.</string>
+    <string name="noPages">Không có trang</string>
+    <string name="noPagesSubtext">Có vẻ như chưa có trang nào được tạo.</string>
+
+    <string name="modulesLockedSubtext">Các mô-đun đã bị vô hiệu hóa cho khóa học này.</string>
+    <string name="modulesLocked">Có gì đó sai</string>
+    <!--General-->
+    <string name="yes">Đúng</string>
+    <string name="no">Không</string>
+
+    <string name="inbox_all">Hộp thư đến</string>
+    <string name="inbox_unread">Chưa đọc</string>
+    <string name="inbox_starred">Có gắn dấu sao</string>
+    <string name="inbox_sent">Gởi</string>
+    <string name="inbox_archived">Đã lưu trữ</string>
+
+    <string name="forbidden">Các câu trả lời chỉ hiển thị cho những người đã đăng ít nhất một câu trả lời.</string>
+
+    <string name="like">Giống</string>
+    <string name="likes">Thích</string>
+    <string name="lockedAssignmentNotModule">Nhiệm vụ này đã bị khóa.</string>
+    <string name="deletedEntryNoChildren">Mục thảo luận đã xóa này không có trả lời.</string>
+    <string name="deleted">Đã xóa</string>
+    <string name="deleted_by">[Đã xóa bởi %1$s]</string>
+    <string name="lockedDiscussionDesc">Cuộc thảo luận này là một phần của mô-đun %s và vẫn chưa được mở khóa.</string>
+    <string name="gradedDiscussion">Thảo luận được chấm điểm</string>
+    <string name="pointsPossible">Điểm có thể</string>
+    <string name="sideCommentEntry">Trong loại thảo luận này, bạn không thể bình luận về bất kỳ mục nào ở cấp độ này.</string>
+
+    <string name="accessibility_overflow">Tràn ra</string>
+
+    <string name="discussion_response">Bình luận</string>
+    <string name="discussion_responses">Bình luận</string>
+    <string name="discussion_unread">Chưa đọc</string>
+    <string name="discussion_reply">Đáp lại</string>
+    <string name="close">Đóng</string>
+
+    <string name="noInternetConnectionTitle">Không có kết nối Internet</string>
+    <string name="noInternetConnectionMessage">Hành động này yêu cầu kết nối internet.</string>
+    <string name="content_description_avatar">hình đại diện</string>
+    <string name="a11y_avatarNameFormatted">%s Hình đại diện</string>
+    <string name="formattedAvatarAction">Xem chi tiết người dùng cho %s.</string>
+
+    <!-- App Names -->
+    <string name="utils_canvas">Tranh sơn dầu</string>
+    <string name="utils_canvasTeacher">Giáo viên Canvas</string>
+    <string name="utils_canvasParent">Canvas Parent</string>
+    <string name="utils_speedgrader">Speedgrader</string>
+
+    <!-- Rating Dialog -->
+    <string name="utils_howAreWeDoing">Làm thế nào chúng tôi đang làm gì?</string>
+    <string name="utils_rateUs">Bạn đánh giá chúng tôi như thế nào?</string>
+    <string name="utils_doBetter">Chúng ta có thể làm gì tốt hơn?</string>
+    <string name="utils_sendFeedback">Gửi thông tin phản hồi</string>
+    <string name="utils_suggestions">Đề xuất cho Android</string>
+    <string name="utils_domain">Miền</string>
+    <string name="utils_versionNum">Phiên bản:</string>
+    <string name="utils_userId">Tên người dùng</string>
+    <string name="utils_email">E-mail</string>
+    <string name="utils_dontShowAgain">Không hiển thị lại</string>
+    <string name="utils_installDate">Ngày cài đặt:</string>
+    <string name="utils_device">Thiết bị</string>
+    <string name="utils_osVersion">Phiên bản của hệ điều hành</string>
+    <string name="loading">Đang tải</string>
+    <string name="save">Tiết kiệm</string>
+    <string name="cropInstructions">Chụm và kéo để điều chỉnh hình ảnh.</string>
+
+    <!--Discussions-->
+    <!--<plurals name="utils_discussionsReplies">-->
+        <item quantity="one">%s Reply</item>
+        <item quantity="other">%s Replies</item>
+    <!--</plurals>-->
+
+    <string name="utils_discussionsDeleted" formatted="false">Đã xóa câu trả lời này %s</string>
+    <string name="utils_discussionsUnknownAuthor">Không rõ tác giả</string>
+    <string name="utils_discussionsReply">Đáp lại</string>
+    <string name="utils_discussionsEdit">Biên tập</string>
+    <string name="utils_discussionsDeleteWarning">Bạn có chắc chắn muốn xóa trả lời này?</string>
+    <string name="utils_availableToLabel">Sẵn sàng cho:</string>
+    <string name="utils_availableFromLabel">Sẵn có từ:</string>
+    <string name="utils_dueDateHeaderLabel">Đến hạn</string>
+    <string name="utils_dueLabel">Đến hạn:</string>
+    <string name="utils_delete">Xóa bỏ</string>
+    <string name="utils_dueDateAtTime" formatted="false">Do %1s tại %2s</string>
+    <string name="utils_noDateFiller">-</string>
+    <string name="utils_availabilityLabel">Khả dụng:</string>
+    <string name="utils_pinnedIcon">Biểu tượng cho cuộc thảo luận được ghim</string>
+    <string name="utils_pinDiscussion">Ghim thảo luận</string>
+    <string name="utils_unpinDiscussion">Bỏ ghim cuộc thảo luận</string>
+    <string name="utils_discussionPinned">Cuộc thảo luận đã được ghim</string>
+    <string name="utils_pinnedDiscussions">Đã ghim</string>
+    <string name="utils_discussionUnpinned">Thảo luận</string>
+    <string name="utils_emptyDiscussions">Không có thảo luận nào để hiển thị trong phần này.</string>
+    <string name="utils_description">Sự miêu tả</string>
+    <string name="utils_allowThreadedReplies">Cho phép trả lời theo chuỗi</string>
+    <string name="utils_usersMustPost">Học sinh phải đăng bài trước khi xem trả lời</string>
+    <string name="utils_discussionsClosed">Đã đóng để nhận xét</string>
+    <string name="utils_discussionsOpen">Mở lại để nhận xét</string>
+    <string name="utils_discussionsPin">Ghim</string>
+    <string name="utils_discussionsUnpin">Bỏ ghim</string>
+    <string name="utils_discussionsOptions">Tùy chọn</string>
+    <string name="utils_discussionsDeleteTitle">Xóa thảo luận?</string>
+    <string name="utils_discussionsDelete">Xóa thảo luận</string>
+    <string name="utils_discussionsDeleteMessage">Thao tác này sẽ xóa toàn bộ cuộc thảo luận và chủ đề.</string>
+    <string name="utils_discussionSentSuccess">Cuộc thảo luận trả lời đã thành công.</string>
+    <string name="utils_discussionUpdateSuccess">Chỉnh sửa thảo luận đã thành công.</string>
+    <string name="utils_discussionSentEmpty">Trả lời thảo luận không được để trống.</string>
+    <string name="utils_discussionSentFailure">Không thể gửi câu trả lời thảo luận vào lúc này.</string>
+    <string name="utils_createDiscussion">Thảo luận mới</string>
+    <string name="utils_editDiscussion">Chỉnh sửa cuộc thảo luận</string>
+    <string name="utils_discussionDetails">Chi tiết cuộc thảo luận</string>
+    <string name="utils_discussionSuccessfullyUpdated">Đã cập nhật thành công cuộc thảo luận.</string>
+    <string name="utils_saving">Tiết kiệm</string>
+    <string name="utils_discussionSuccessfullyCreated">Đã tạo thành công cuộc thảo luận.</string>
+    <string name="utils_discussionSuccessfulAttachmentNot">Không thể thêm tệp đính kèm vào cuộc thảo luận này. Vui lòng kiểm tra hạn ngạch tệp của bạn và thử lại.</string>
+    <string name="utils_noTitle">Không tiêu đề</string>
+    <string name="utils_discussionsReplies_Title">Trả lời</string>
+    <string name="utils_contentDescriptionDiscussionsOverflow">Lựa chọn khác</string>
+    <string name="utils_discussionsUnreadRepliesBlank" formatted="false">%s %s %s</string>
+    <string name="utils_lastPost" formatted="false">Bài cuối %s</string>
+    <string name="utils_postedOnDate">Đã đăng trên %s</string>
+    <string name="utils_discussionPostBeforeRepliesEmptyText">Các câu trả lời chỉ hiển thị cho những người đã đăng ít nhất một câu trả lời.</string>
+    <string name="utils_createAnnouncementDelayPosting">Chậm đăng bài</string>
+    <string name="utils_postAt">Đăng tại</string>
+    <string name="utils_postDate">Ngay gưỉ</string>
+    <string name="utils_postTime">Thời gian đăng bài</string>
+    <string name="utils_editAnnouncementTitle">Chỉnh sửa thông báo</string>
+    <string name="utils_createAnnouncementTitle">Thông báo mới</string>
+    <string name="utils_announcementDetails">Chi tiết thông báo</string>
+    <string name="utils_createAnnouncementNoDescription">Một mô tả là bắt buộc</string>
+    <string name="utils_errorSavingAnnouncement">Đã xảy ra lỗi khi cố gắng lưu thông báo này. Thử lại.</string>
+    <string name="utils_announcementSuccessfullyUpdated">Đã cập nhật thông báo thành công.</string>
+    <string name="utils_announcementSuccessfullyCreated">Thông báo đã được tạo thành công.</string>
+
+    <!--<plurals name="utils_discussionsUnread">-->
+        <item quantity="one">%s Unread</item>
+        <item quantity="other">%s Unread</item>
+    <!--</plurals>-->
+
+    <!--<plurals name="utils_addAttachment">-->
+        <item quantity="zero">Add Attachment</item>
+        <item quantity="one">Add Attachment</item>
+        <item quantity="other">Add Attachments</item>
+    <!--</plurals>-->
+
+    <!-- Assignment Override !-->
+    <string name="utils_unlockAfterDueDateError">Ngày mở khóa không được sau ngày đến hạn</string>
+    <string name="utils_lockBeforeDueDateError">Ngày khóa không được trước ngày đến hạn</string>
+    <string name="utils_lockAfterUnlockError">Ngày khóa không được trước ngày mở khóa</string>
+    <string name="utils_assigneeBlankError">Người được giao không được để trống</string>
+    <string name="utils_assignTo">Giao cho</string>
+    <string name="utils_availableFrom">Sẵn có từ</string>
+    <string name="utils_availableTo">Sẵn sàng cho</string>
+    <string name="utils_availableFromDate">Có sẵn từ ngày</string>
+    <string name="utils_availableFromTime">Có sẵn từ thời gian</string>
+    <string name="utils_availableToDate">Có sẵn cho đến nay</string>
+    <string name="utils_availableToTime">Có sẵn cho đến thời điểm</string>
+    <string name="utils_dueDate">Ngày đáo hạn</string>
+    <string name="utils_dueTime">Thời gian đến hạn</string>
+    <string name="utils_addNew">Thêm mới</string>
+
+    <!--Attachment Layout-->
+    <string name="utils_downloadAttachment">Tải xuống Tệp đính kèm</string>
+    <string name="utils_removeAttachment">Xóa tệp đính kèm</string>
+
+    <!--Unsaved Changes-->
+    <string name="utils_continueWithoutSavingTitle">Tiếp tục mà không lưu?</string>
+    <string name="utils_continueWithoutSavingMessage">Bạn có chắc chắn muốn tiếp tục mà không cần lưu không?</string>
+    <string name="utils_continueUnsaved">Tiếp tục</string>
+    <string name="utils_exitWithoutSavingTitle">Thoát mà không lưu?</string>
+    <string name="utils_exitWithoutSavingMessage">Bạn có chắc chắn muốn thoát mà không lưu không?</string>
+    <string name="utils_exitUnsaved">Lối ra</string>
+    <string name="utils_cancel">Huỷ bỏ</string>
+
+    <string name="utils_contentDescriptionFiles">Biểu tượng tệp</string>
+    <string name="utils_turn_in">Quay vào</string>
+    <string name="utils_upload">Tải lên</string>
+    <string name="utils_okay">Được chứ</string>
+    <string name="utils_loadingFilesIndeterminate">Đang tải tệp…</string>
+    <string name="utils_allowedExtensions">Các phần mở rộng được phép:</string>
+    <string name="utils_extensionNotAllowed">Loại tệp đã chọn không được phép.</string>
+    <string name="utils_errorUploadingFile">Đã xảy ra lỗi khi tải tệp của bạn lên. Vui lòng thử lại.</string>
+    <string name="utils_filesUploadedSuccessfully">Các tệp đã được tải lên thành công.</string>
+    <string name="utils_uploadingFiles">Đang tải tệp lên…</string>
+    <string name="utils_uploadingFile">Đang tải tệp lên…</string>
+    <string name="utils_noApps">Thiết bị của bạn không được cài đặt bất kỳ ứng dụng nào có thể xử lý tệp này.</string>
+    <string name="utils_errorGettingPhoto">Đã xảy ra lỗi khi tải ảnh. Vui lòng thử lại.</string>
+    <string name="utils_oneOrMoreExtensionNotAllowed">Một hoặc nhiều tệp có phần mở rộng tệp không được phép</string>
+    <string name="utils_fileUploadNotSupported">Bạn không thể tải tệp lên bài tập đã chọn.</string>
+    <string name="utils_noFilesUploaded">Bạn chưa chọn bất kỳ tệp nào.</string>
+    <string name="utils_attachments">Tệp đính kèm</string>
+    <string name="utils_uploadTo">Tải lên</string>
+    <string name="utils_uploadToCanvas">Tải lên Canvas</string>
+    <string name="utils_uploadMyFiles">Tệp của tôi</string>
+    <string name="utils_uploadCourseFiles">Tệp khóa học</string>
+    <string name="utils_uploadGroupFiles">Tệp nhóm</string>
+    <string name="utils_uploadToSubmissionComment">Tải lên bình luận gửi</string>
+    <string name="utils_attachFile">Đính kèm một tệp</string>
+    <string name="utils_with">với</string>
+    <string name="notificationPrimaryInboxTitle">Thông báo canvas</string>
+    <string name="notificationChannelNamePrimary">Thông báo Canvas chung</string>
+    <string name="notificationChannelDescriptionPrimary">Có thể thực hiện thêm cấu hình thông báo trong phần Tùy chọn thông báo canvas.</string>
+
+    <!--<plurals name="notificationGroupContent">-->
+        <item quantity="other">%d new notifications</item>
+    <!--</plurals>-->
+    <string name="copyLinkAddress">Sao chép địa chỉ liên kết</string>
+    <string name="copyLink">Sao chép đường dẫn</string>
+    <string name="linkCopied">Đã sao chép liên kết</string>
+    <string name="link">Liên kết</string>
+    <string name="fileExists">File tồn tại</string>
+    <string name="replace">Thay thế</string>
+    <string name="shareLink">Chia sẻ đường link</string>
+
+    <string name="utils_launchExternalTool">Khởi chạy công cụ bên ngoài</string>
+    <string name="utils_externalToolTitle">Công cụ bên ngoài</string>
+    <string name="utils_placeholderTitle">Công cụ bên ngoài</string>
+    <string name="utils_placeholderDescription">Truy cập tài khoản web Canvas của bạn để chỉnh sửa công cụ bên ngoài này.</string>
+    <string name="utils_unableToViewInBrowser">Chúng tôi không thể tìm thấy ứng dụng bên ngoài để xem công cụ LTI này.</string>
+
+    <string name="utils_unsupportedFileMessage">Không thể hiển thị tệp này. Sử dụng nút bên dưới để mở tệp bằng ứng dụng khác trên thiết bị của bạn.</string>
+    <string name="utils_openWithAnotherApp">Mở với…</string>
+    <string name="utils_couldNotPlayFormat">Định dạng phương tiện này không được hỗ trợ</string>
+    <string name="utils_fullscreen">toàn màn hình</string>
+
+    <string name="utils_dataUsageWarningTitle">Cảnh báo sử dụng dữ liệu</string>
+    <string name="utils_dataUsageWarningMessage">Hành động này có thể tiêu tốn một lượng lớn dữ liệu, có khả năng phát sinh phí trung bình. Bạn có muốn tiếp tục không?</string>
+    <string name="utils_doNotShowMessageAgain">Không hiển thị thông báo này nữa</string>
+
+    <string name="utils_no_data_connection">Vui lòng kiểm tra kết nối dữ liệu của bạn và thử lại.</string>
+    <string name="utils_playMedia">Phát phương tiện</string>
+    <string name="utils_tryAgain">Thử lại</string>
+    <string name="image_uploading">Đang tải lên hình ảnh ...</string>
+    <string name="image_upload_error">Lỗi tải lên hình ảnh</string>
+    <string name="retry">Thử lại</string>
+
+    <string name="search">Tìm kiếm</string>
+    <string name="searchAssignmentsHint">Bài tập tìm kiếm</string>
+    <string name="searchAnnouncementsHint">Thông báo tìm kiếm</string>
+    <string name="searchDiscussionsHint">Tìm kiếm thảo luận</string>
+    <string name="searchPagesHint">Trang tìm kiếm</string>
+    <string name="searchQuizzesHint">Câu đố tìm kiếm</string>
+    <string name="noItemsMatchingQuery">Không có mục nào phù hợp với &quot;%s&quot;</string>
+    <string name="selected">Đã chọn</string>
+
+    <string name="notificationChannelNameInAppUpdate">Thông báo cập nhật ứng dụng</string>
+    <string name="notificationChannelDescriptionInAppUpdate">Thông báo canvas cho các bản cập nhật trong ứng dụng.</string>
+    <string name="appUpdateReadyTitle">Ứng dụng đã sẵn sàng để cập nhật</string>
+    <string name="appUpdateReadyDescription">Khởi động lại ứng dụng để cài đặt phiên bản mới</string>
+
+</resources>

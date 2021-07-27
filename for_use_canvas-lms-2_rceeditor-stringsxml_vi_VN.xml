@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2017 - present Instructure, Inc.
+  ~
+  ~     Licensed under the Apache License, Version 2.0 (the "License");
+  ~     you may not use this file except in compliance with the License.
+  ~     You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~     Unless required by applicable law or agreed to in writing, software
+  ~     distributed under the License is distributed on an "AS IS" BASIS,
+  ~     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~     See the License for the specific language governing permissions and
+  ~     limitations under the License.
+  ~
+  -->
+
+<resources>
+
+    <string name="rce_contentDescription_undo">Hoàn tác</string>
+    <string name="rce_contentDescription_redo">Làm lại</string>
+    <string name="rce_contentDescription_bold">Định dạng in đậm</string>
+    <string name="rce_contentDescription_italic">Định dạng chữ nghiêng</string>
+    <string name="rce_contentDescription_strikethrough">Tấn công</string>
+    <string name="rce_contentDescription_underline">Gạch chân</string>
+    <string name="rce_contentDescription_format_text_color">Định dạng màu văn bản</string>
+    <string name="rce_contentDescription_border_color">Định dạng màu viền văn bản</string>
+    <string name="rce_contentDescription_indent_increase">Tăng thụt lề</string>
+    <string name="rce_contentDescription_indent_decrease">Giảm thụt lề</string>
+    <string name="rce_contentDescription_align_left">Căn trái</string>
+    <string name="rce_contentDescription_align_right">Sắp xếp đúng</string>
+    <string name="rce_contentDescription_align_center">Căn giữa</string>
+    <string name="rce_contentDescription_insert_bullets">Chèn Danh sách Dấu đầu dòng</string>
+    <string name="rce_contentDescription_insert_numbers">Chèn danh sách được đánh số</string>
+    <string name="rce_contentDescription_insert_photo">Chèn ảnh</string>
+    <string name="rce_contentDescription_upload_photo">Tải ảnh lên từ thiết bị</string>
+    <string name="rce_contentDescription_insert_link">Chèn đường dẫn</string>
+    <string name="rce_contentDescription_block_quote">Chặn Trích dẫn</string>
+
+    <string name="rce_contentDescription_color_none">Màu sắc Không có</string>
+    <string name="rce_contentDescription_color_white">Màu trắng</string>
+    <string name="rce_contentDescription_color_black">Màu đen</string>
+    <string name="rce_contentDescription_color_blue">Màu xanh lam</string>
+    <string name="rce_contentDescription_color_red">Tô màu đỏ</string>
+    <string name="rce_contentDescription_color_green">Màu xanh lá cây</string>
+    <string name="rce_contentDescription_color_gray">Màu xám</string>
+    <string name="rce_contentDescription_color_magenta">Màu đỏ tươi</string>
+    <string name="rce_contentDescription_color_cyan">Màu lục lam</string>
+    <string name="rce_contentDescription_color_orange">Màu cam</string>
+    <string name="rce_contentDescription_color_yellow">Màu vàng</string>
+    <string name="rce_contentDescription_color_purple">Màu tím</string>
+
+    <string name="rce_editTextUrlHint">Liên kết</string>
+    <string name="rce_editTextALTHint">Bản văn</string>
+    <string name="rce_dialogDone">Làm xong</string>
+    <string name="rce_dialogCancel">Huỷ bỏ</string>
+    <string name="rce_insertLink">Chèn đường dẫn</string>
+    <string name="rce_insertImage">Chèn hình ảnh</string>
+
+    <string name="rce_uploadImage">Tải lên hình ảnh</string>
+    <string name="rce_done">Làm xong</string>
+    <string name="rce_cancel">Huỷ bỏ</string>
+    <string name="rce_exit">Lối ra</string>
+    <string name="rce_dialog_exit_title">Thoát khỏi Chỉnh sửa Bài tập?</string>
+    <string name="rce_dialog_exit_message">Bạn có chắc bạn muốn thoát? Mọi dữ liệu chưa được lưu sẽ bị mất.</string>
+    <string name="rce_empty_message">Thông điệp</string>
+    <string name="rce_empty_description">Thêm mô tả</string>
+    <string name="rce_scrollInstructions">Cuộn cho tất cả các công cụ chỉnh sửa</string>
+    <string name="rce_emptyUrlError">Url không được để trống</string>
+    <string name="rce_httpNotAllowed">Chỉ các url https được chấp nhận</string>
+</resources>
